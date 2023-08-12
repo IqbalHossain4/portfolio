@@ -18,6 +18,11 @@ const Main = () => {
   //nav Options
   const navOptions = (
     <>
+      <div className="ms-4">
+        <h1 className="mb-8 font-[700] text-[30px] text-white ">
+          <Link to="/">IQBAL</Link>
+        </h1>
+      </div>
       <li>
         <Active to="/">Home</Active>
       </li>
@@ -36,6 +41,10 @@ const Main = () => {
       <li>
         <Active to="/contact">Contact</Active>
       </li>
+      <div className="text-[15px] text-[#bbb] ms-4" disabled>
+        <p className="mt-8">&copy;2023 Iqbal</p>
+        <p className="">Created by Iqbal</p>
+      </div>
     </>
   );
 

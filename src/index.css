@@ -119,6 +119,38 @@ li {
 .projectBox:hover img {
   transform: scale(1.1);
 }
+
+/* control form */
+
+.controlForm {
+  width: 100%;
+  background-color: #34353a;
+}
+
+.controlForm input {
+  width: 100%;
+  border: 1px solid #494b50;
+  outline: none;
+  background-color: #34353a;
+  padding: 8px 10px;
+}
+
+.controlForm input:focus {
+  border: 1px solid white;
+}
+
+.controlForm textarea {
+  width: 100%;
+  border: 1px solid #494b50;
+  outline: none;
+  background-color: #34353a;
+  padding: 8px 10px;
+}
+
+.controlForm textarea:focus {
+  border: 1px solid white;
+}
+
 /* ''''''''''''''''''tablet Start responsive Here */
 
 @media screen and (max-width: 1024px) {
