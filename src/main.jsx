@@ -8,6 +8,7 @@ import About from "./pages/About/About";
 import Service from "./pages/Service/Service";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
+import News from "./pages/News/News";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <Projects />,
+      },
+      {
+        path: "news",
+        element: <News />,
       },
       {
         path: "contact",
