@@ -36,7 +36,7 @@ const Projects = () => {
           </button>
           <h2 className="font-[800] text-white mt-4">Creative Projects</h2>
         </div>
-        <div className="grid-2 gap-16">
+        <div className="grid-2 gap-16 mt-16">
           {projects.map((item, index) => (
             <div key={index}>
               <div
