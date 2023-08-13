@@ -50,14 +50,14 @@ const About = () => {
           <h2 className="font-[800] text-white mt-4">About Me</h2>
         </div>
         <div className="mt-8">
-          <div className="w-[300px] h-[300px] bg-[#494b50] mx-auto rounded-full overflow-hidden">
+          <div className="w-[300px] h-[300px] bg-[#494b50] md:mx-auto rounded-full overflow-hidden">
             <img src={myPhoto} className="w-full h-full object-fill" alt="" />
           </div>
           <div className="mt-4 text-white">
             <h3 className="text-[22px] font-[700]">Iqbal Hossain</h3>
             <p className="text-[#bbb] text-[14px] mt-2">MERN Stack Developer</p>
-            <hr className="my-8 " />
-            <p className="text-[#bbb] text-[14px] leading-8">
+            <hr className="my-8 w-full " />
+            <p className="w-full h-full text-[#bbb] text-[14px] leading-8">
               Hi, I'am Iqbal Hossain, I am a MERN Stack Developer. I have
               experience in real-time work I have done so many projects in the
               past. I developed so many websites using my short knowledge. I
@@ -234,7 +234,7 @@ const About = () => {
       </div>
       {/* tesminials */}
       <div>
-        <div className="containers pt-24">
+        <div className="containers md:block hidden pt-24">
           <h3 className="font-[600] text-[22px] text-white mb-8">
             Testimonials
           </h3>
